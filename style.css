@@ -124,12 +124,12 @@ body{
         height: 100%;
         content: url('./assets/images/image-product-desktop.jpg');
         border-radius: 1rem 0 0 1rem;
-        margin-bottom: -4px;
+        margin-bottom: -6px;
     }
     .card-info .perfume,
     .card-title,
     .card-paragraph{
-        margin-bottom: 1.7rem;
+        margin-top: 1.4rem;
     }
     .price{
         margin-bottom: 1.6rem;
