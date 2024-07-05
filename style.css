@@ -39,11 +39,11 @@ body{
 }
 /*========== Card ==========*/
 .card-content{
+    max-width: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 375px;
     background-color: var(--white);
     border-radius: 1rem;
 }
@@ -106,4 +106,32 @@ body{
 }
 .card-btn p{
     margin-left: .6rem;
+}
+.card-btn:hover{
+    background-color: hsl(157, 36%, 23%);
+}
+
+/*========== Media queries ==========*/
+
+/*========== Desktop ==========*/
+@media screen and (min-width: 768px){
+    .card-content{
+        max-width: 600px;
+        flex-direction: row;
+    }
+    .card-img img{
+        width: 300px;
+        height: 100%;
+        content: url('./assets/images/image-product-desktop.jpg');
+        border-radius: 1rem 0 0 1rem;
+        margin-bottom: -4px;
+    }
+    .card-info .perfume,
+    .card-title,
+    .card-paragraph{
+        margin-bottom: 1.7rem;
+    }
+    .price{
+        margin-bottom: 1.6rem;
+    }
 }
