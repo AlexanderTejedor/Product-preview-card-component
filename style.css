@@ -104,8 +104,8 @@ body{
     color: var(--white);
     background-color: var(--dark-cyan);
 }
-.card-btn p{
-    margin-left: .6rem;
+.card-btn img{
+    margin-right: .5rem;
 }
 .card-btn:hover{
     background-color: hsl(157, 36%, 23%);
